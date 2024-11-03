@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="quote-container">
+        <h1>Random Quote Generator</h1>
+        <select id="category-select">
+            <option value="inspirational">Inspirational</option>
+            <option value="life">Life</option>
+            <option value="love">Love</option>
+            <option value="beauty">Beauty</option>
+            <option value="humor">Humor</option>
+            <option value="business">Business</option>
+            <option value="cool">Cool</option>
+            <option value="dreams">Dreams</option>
+            <option value="faith">Faith</option>
+        </select>
+        <div id="quote-text" class="quote-text"></div>
+        <div id="quote-author" class="quote-author"></div>
+        <div class="buttons">
+            <button id="generate-quote">Get a Quote</button>
+            <button id="save-favorite">Save Favorite</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
