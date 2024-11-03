@@ -10,7 +10,7 @@ async function fetchQuoteFromAPI(category) {
     const response = await fetch(`https://api.api-ninjas.com/v1/quotes?category=${category}`, {
       method: "GET",
       headers: {
-        "X-Api-Key": "EMYTddSCboBxvQ5hiuTjjg==CSANQIhmpgdf37zV",  
+        "X-Api-Key": "YOUR API KEY",  
       },
     });
 
